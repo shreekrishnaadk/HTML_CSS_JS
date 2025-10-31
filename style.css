@@ -124,6 +124,10 @@
             border-bottom: 4px solid #821d1d;
             padding-bottom: 5px;
         }
+        h3 {
+            color: #ed5252;
+            text-shadow: #000 1px 1px 2px;
+        }   
 
         p {
             font-size: 16px;
@@ -152,7 +156,7 @@
             list-style-type: square;
             margin-left: 20px;
             line-height: 1.6;
-            color: rgb(203, 10, 10); 
+            color: rgb(0, 0, 0); 
             padding: 5px;
             text-align: justify;
 

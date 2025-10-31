@@ -8,8 +8,8 @@
         }
 
         header {
-            color: #f60303;
-            background-color: black;
+            color: #f3e3e3;
+            background-color: rgb(9, 82, 110);
             padding: 10px;
             text-align: center;
 
@@ -18,7 +18,7 @@
         header h1 {
             margin: 0;
             font-size: 20px;
-            color: rgb(45, 145, 207);
+            color: rgb(168, 218, 250);
             text-align: center;
         }
 
@@ -27,7 +27,7 @@
             margin: 40 px auto;
             max-width: auto;
             padding: 20px;
-            background-color: #e2dede;
+            background-color: #eedfdf;
             border-radius: 8px;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
 
@@ -39,17 +39,17 @@
         }
 
         header .Menu ul {
-            list-style-type: circle;
-            padding: 0;
-            margin: 0;
+            list-style-type: none;
+            padding: 10;
+            margin: 5;
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 10px;
         }
 
         header .Menu ul li a {
             text-decoration: none;
-            color: #fff;
+            color: #fdfcfc;
             background-color: #333;
             padding: 8px 12px;
             border-radius: 4px;
@@ -57,7 +57,10 @@
         }
 
         header .Menu ul li a:hover {
-            background-color: #555;
+            background-color: #9c1414;
+            color: #e1e890;
+            cursor: pointer;
+            
         }
 
         .about-text {
@@ -175,4 +178,76 @@
             color: #000;}
         .ul2 li a {
             color:#f1f1f1; 
-            text-decoration: none;
+            text-decoration: none;}
+        header .Menu ul li a.active {
+            background-color: #00bcd4;  /* highlight background */
+            color: #000;                 /* text color */
+            font-weight: bold;           /* optional */
+            border-radius: 8px;          /* match other buttons */
+}
+.contact-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight:bolder;
+    color: #dd0e0e;
+    border-bottom: 4px solid #821d1d;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.label {
+    margin-top: 10px;
+    font-weight: bold;
+    color:#9c1414
+}
+.label2 {
+    margin-top: 10px;
+    font-weight: bold;
+    color:#9c1414
+    
+}
+.label3 {
+    margin-top: 10px;
+    font-weight: bold;
+    color:#9c1414;
+    display: block;
+   text-align: center;
+
+    
+}
+.address-text {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+
+}
+.map.container {
+    text-align: center;
+    margin-top: 10px;
+}   
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: 6px solid #00bcd4;
+    border-radius: 8px;
+}
+.location-text {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(52, 11, 235);
+}   
+.aboutme-photo {
+            display: block;
+            margin: 10px auto;
+            border-radius: 15%;
+            border: 3px solid #333;
+            object-fit: cover;
+            align-self: auto;
+            display: block;
+            box-shadow: #6595dd 0px 4px 8px;
+            width: 300px;
+            height: 200px;
+        }
